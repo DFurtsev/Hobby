@@ -90,10 +90,22 @@ body {
 .content-container {
     display: flex;
     justify-content: flex-start;
+    background-color: #c4b9825c;
+    border-radius: 25px 25px 25px 25px;
+
 }
 
 .photo {
-    width: 50%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.main-content {
+    border-radius: 25px 25px 25px 25px;
+    vertical-align: top;
+    float:left;
+    padding-right: 5px;
+
 }
 
 .photo-style {
